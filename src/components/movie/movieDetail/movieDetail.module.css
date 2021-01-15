@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.movie {
+  margin: 0.75rem;
+  background-color: #252631;
+  margin-top: 76px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.movie img {
+  width: 550px;
+  height: 550px;
+}
+
+.movieInfo {
+  padding: 1.25rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.movieInfo h3 {
+  margin: 0;
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+.movieInfo h4 {
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+.overview {
+  font-size: 20px;
+}

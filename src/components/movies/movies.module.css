@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  max-height: 879px;
+  overflow: auto;
+}
+
+.pagination {
+  margin-left: 885px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  bottom: 0;
+}
+
+.previous {
+  width: 120px;
+  height: 40px;
+  margin-right: 5px;
+}
+.next {
+  width: 120px;
+  height: 40px;
+}
+button {
+  background: #066b41;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  background: #108856;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #066b41;
+  color: white;
+  cursor: not-allowed;
+}
+
+.warning {
+  top: 50%;
+  margin-left: 925px;
+  margin-top: 300px;
+  margin-bottom: 200px;
+  right: 50%;
+}
